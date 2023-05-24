@@ -1,2 +1,12 @@
 # code2flow_api
-implementation of api for code2flow
+
+Usage Example:
+
+``` python
+import requests
+
+url = 'http://address/upload_script'
+file = {'file': open('trader_script.py', 'rb')}
+resp = requests.post(url=url, files=file)
+print(resp)
+```
