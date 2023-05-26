@@ -1,6 +1,6 @@
 # code2flow_api
 
-Usage Example:
+Usage Examples:
 
 File Version:
 ``` python
